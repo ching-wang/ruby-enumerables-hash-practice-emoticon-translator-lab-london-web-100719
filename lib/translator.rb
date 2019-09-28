@@ -8,7 +8,8 @@ def load_library(path)
   }
   emoticons_list.each do |meaning, emojis|
     
-  end 
+  end
+  return emoticons_hash
 end
 
 def get_japanese_emoticon()
