@@ -1,13 +1,17 @@
 # require modules here
-
-def load_library
-  # code goes here
+require "yaml"
+def load_library(emoticons)
+  emoticons = YAML.load_file('./lib/emoticons.yml')
+  get_meaning = emoticons.map do |key, value| return key
+  get_emoticon = emoticons.map do |key, value| return value
+  return emoticons
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(emoticons)
+   
 end
 
-def get_english_meaning
-  # code goes here
+  
+def get_english_meaning()
+  
 end
