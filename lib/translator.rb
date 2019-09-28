@@ -6,7 +6,7 @@ def load_library(path)
     "get_meaning" => {},
     "get_emoticon" => {},
   }
-  emoticons_list.each do |emoti_pair, meaning|
+  emoticons_list.each do |meaning, emojis|
     
   end 
 end
