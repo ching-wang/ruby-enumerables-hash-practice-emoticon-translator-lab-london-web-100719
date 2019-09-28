@@ -16,7 +16,7 @@ end
 def get_japanese_emoticon(path, english)
   emoticons = load_library(path)
   
-   
+  return emoticons
 end
 
   
