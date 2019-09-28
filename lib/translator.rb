@@ -13,7 +13,7 @@ def load_library(path)
   return emoticons_hash
 end
 
-load_library("")
+load_library("./lib/emoticons.yml")
 
 def get_japanese_emoticon(path, english)
   emoticons = load_library(path)
