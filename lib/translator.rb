@@ -17,7 +17,10 @@ load_library("./lib/emoticons.yml")
 
 def get_japanese_emoticon(path, english)
   emoticons = load_library(path)
-  return emoticons["get_emoticon"][english]
+  if emoticons["get_emoticon"][english]
+    return emoticons["get_emoticon"][english]
+  else 
+    return "Sorry, that emoticon was not found"
 end
 
   
